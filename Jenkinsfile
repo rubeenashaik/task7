@@ -3,6 +3,7 @@ pipeline {
     triggers {
         upstream 'task71, task72, '
     }
+    
     stages {
       stage('FIRST-JOB'){
         steps{
